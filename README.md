@@ -12,14 +12,36 @@
 - **One-to-many communication model**:  
   A single sender can deliver messages to all receivers joined to the group.
 
+# Project Structure
+
+```
+udp_multicast_demo/
+│
+├── CMakeLists.txt
+├── constants.h
+├── sender.cpp
+├── receiver.cpp
+└── README.md
+```
+
+---
+
+# Build with CMake
+
+Create a **build directory** and compile using CMake.
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
 ---
 
 
 # Usage Instructions
 
 To verify the multicast functionality, you must open **multiple terminal windows**.
-
----
 
 ## Step 1: Start the Receivers
 
