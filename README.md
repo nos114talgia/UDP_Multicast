@@ -12,6 +12,8 @@
 - **One-to-many communication model**:  
   A single sender can deliver messages to all receivers joined to the group.
 
+---
+
 # Project Structure
 
 ```
@@ -91,8 +93,4 @@ Received message: Hello, multicast!
 
 
 
----
 
-# License
-
-MIT License
